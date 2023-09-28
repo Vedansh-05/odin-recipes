@@ -16,6 +16,7 @@
 .list-items,
 .recipes{
     font-size: 22px;
+    padding: 12px;
 }
 .main-heading,
 .heading,
@@ -28,6 +29,9 @@
     font-size: 40px;
     color: darkgoldenrod;
     font-style: italic;
+    margin-left: 60px;
+    padding-left: 60px;
+
 }
 
 .heading,
@@ -41,4 +45,15 @@
 
 .sub-heading{
     font-size: 28px;
+}
+
+.list-items .recipes{
+    display: inline-block;
+    margin: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+li{
+    padding: 6px;
+    margin: 6px;
 }
